@@ -46,9 +46,5 @@ async def serverinfo(ctx):
 async def serverip(ctx):
     await bot.say(":frowning2: ZeneHQ.mymcserver.org")
     print ("user has asked for ip")
-
-@bot.command(pass_context=True)
-async def info(ctx):
-    await ctx.send("You need to add the users id")	
-
+	
 bot.run("NTEwODk3MTAyMDc1OTg1OTM1.DsjCfQ.4tbVTCrlmWoyGa1id3syvy64Xh4")
